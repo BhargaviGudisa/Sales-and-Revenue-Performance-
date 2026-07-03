@@ -1,0 +1,42 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Jupyter ---
+*.ipynb_checkpoints
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE / editor settings ---
+.vscode/
+.idea/
+*.swp
+
+# --- Secrets / environment config ---
+.env
+*.env.local
+credentials.json
+*.key
+
+# --- Power BI temp/autosave files ---
+*.pbix.bak
+~$*.pbix
+*.pbit.bak
+
+# --- Temporary / large export artifacts ---
+*.tmp
+*.bak
+data/interim/
+data/processed/sales.db
